@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         textView = findViewById(R.id.titleTextView)
 
         button.setOnClickListener {
-            textView.visibility = View.GONE
+            textView.visibility = View.INVISIBLE
 
             Log.d("!!!", "onCreate: ${textView.visibility}")
         }
