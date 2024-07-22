@@ -25,7 +25,7 @@ import org.junit.runner.RunWith
  * @see ru.easycode.zerotoheroandroidtdd.CountTest
  */
 @RunWith(AndroidJUnit4::class)
-class Task011Test {
+class dTask011Test {
 
     @get:Rule
     var activityScenarioRule = ActivityScenarioRule(MainActivity::class.java)
